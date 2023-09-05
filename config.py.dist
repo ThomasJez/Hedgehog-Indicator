@@ -1,3 +1,3 @@
-db_path = '/home/jeti/.local/share/hamster-applet/hamster.db'
-hedgehog_path = '/home/jeti/dev/hamster/hamster-tk/hedgehog.py'
+import os
+db_path = os.getenv("HOME") + '/.local/share/hamster/hamster.db'
 hamster_path = '/usr/bin/hamster'
