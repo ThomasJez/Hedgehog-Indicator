@@ -33,7 +33,7 @@ You have to close the app to make the changes visible in the indicator.
 
 ## Installation
     git clone https://github.com/ThomasJez/Hedgehog-Indicator.git
-    cd hedgehog-reduced
+    cd Hedgehog-Indicator
     cp config.py.dist config.py
 
 In config.py change the db_path and hamster_path according to your system.
